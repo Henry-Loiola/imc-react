@@ -1,0 +1,30 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.listItem {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.itemName,
+.itemLanguage {
+    margin: 5px 0;
+}
+
+.itemLink {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.itemLink:hover {
+    text-decoration: underline;
+}
